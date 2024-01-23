@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+      
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+        }
+      
+        .editButton {
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          text-decoration: underline;
+          color: blue;
+        }
+      </style>
+    </head>
+    <body>
+      <table id="table">
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td><button class="editButton">Edit</button></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Nguyễn Văn B</td>
+            <td><button class="editButton">Edit</button></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nguyễn Văn C</td>
+            <td><button class="editButton">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    
+      <div>
+        <input type="text" id="editInput">
+        <button id="editItemButton">Edit Item</button>
+      </div>
+    
+</body>
+<script src="./bt09.js"></script>
+</html>

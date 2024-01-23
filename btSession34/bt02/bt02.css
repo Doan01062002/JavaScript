@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#btn{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+}
+
+#btn:hover{
+    opacity: 70%;
+}

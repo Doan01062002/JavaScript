@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="studentForm">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" required>
+      
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" required>
+      
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+      
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      
+        <button type="button" onclick="createStudent()">Create</button>
+      </form>
+      
+      <div id="studentInfo" style="display: none;">
+        <h2>Student Information:</h2>
+        <p id="studentIdDisplay"></p>
+        <p id="studentNameDisplay"></p>
+        <p id="ageDisplay"></p>
+        <p id="phoneDisplay"></p>
+        <p id="emailDisplay"></p>
+      </div>
+</body>
+<script src="./bt6.js"></script>
+</html>

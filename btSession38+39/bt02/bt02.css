@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+#icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#input{
+    width: 0px;
+    height: 0px;
+    font-size: 20px;
+    transition: width 1s ease;
+    border: none;
+    background-color: aqua;
+}

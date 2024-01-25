@@ -1,0 +1,18 @@
+body {
+  background-color: #ffffff; /* Màu nền mặc định */
+}
+
+#jokeContainer {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#jokeText {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#getJokeButton {
+  padding: 10px 20px;
+  font-size: 18px;
+}

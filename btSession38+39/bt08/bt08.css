@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shows{
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shows .weight-converter{
+    height: 50px;
+    background-color: chartreuse;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.shows .weight-converter h1{
+    margin-left: 20px;
+}
+
+.shows p{
+    margin-left: 5px;
+}
+
+.shows .arrange{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 50px 50px 50px;
+    margin-left: 5px;
+}
+
+.shows .arrange .input{
+    width: 340px;
+    height: 30px;
+}

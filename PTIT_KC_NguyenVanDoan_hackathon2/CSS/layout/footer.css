@@ -1,0 +1,138 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(7, 7, 114);
+    width: 1440px;
+    height: 700px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.end .left-end img{
+    width: 300px;
+    height: 320px;
+}
+
+.end .left-end{
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.end .left-end h4{
+    font-size: 20px;
+}
+
+.end .left-end .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.end .left-end .icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.end .left-end .icon img:hover{
+    opacity: 70%;
+}
+
+.end .right-end{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    color: white;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.end .right-end .fonts h1{
+    font-size: 40px;
+}
+
+.end .right-end .information{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: rgb(209, 203, 203);
+}
+
+.end .right-end .information .your{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.end .right-end .information .your input{
+    width: 425px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 56);
+    border: 0.5px solid rgb(80, 78, 78);
+    outline: none;
+}
+
+.end .right-end .information .subject input{
+    width: 900px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 56);
+    border: 0.5px solid rgb(80, 78, 78);
+    outline: none;
+}
+
+.end .right-end .information .message textarea{
+    width: 900px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 56);
+    border: 0.5px solid rgb(80, 78, 78);
+    outline: none;
+}
+
+.end .right-end .information button{
+    width: 900px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: aqua;
+    color: white;
+    font-size: 25px;
+}
+
+.end .right-end .information button:hover{
+    opacity: 80%;
+}
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 1px solid rgb(88, 83, 83);
+}
+
+.end .right-end .input{
+    color: white;
+    font-size: 15px;
+}
